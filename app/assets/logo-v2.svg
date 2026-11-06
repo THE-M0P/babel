@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- background: app dark -->
+  <rect x="0" y="0" width="512" height="512" rx="115" fill="#0D1117"/>
+
+  <!-- signal arcs: the live stream -->
+  <path d="M 172 96 Q 250 40 328 96" stroke="#4FC3F7" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 198 128 Q 250 92 302 128" stroke="#4FC3F7" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- tail fin: connected, sweeping -->
+  <path d="M 348 258
+           C 396 226, 430 222, 452 236
+           C 434 258, 434 284, 452 306
+           C 430 320, 396 316, 348 284 Z" fill="#C2185B"/>
+
+  <!-- body: brain-blob with distinct lobes, facing left -->
+  <path d="M 148 338
+           C 114 320, 104 278, 122 248
+           C 106 210, 134 178, 172 186
+           C 178 156, 224 144, 252 166
+           C 262 140, 314 138, 330 168
+           C 362 168, 384 198, 372 228
+           C 392 252, 388 296, 356 316
+           C 366 344, 330 362, 292 352
+           C 240 368, 184 362, 148 338 Z" fill="#F06292"/>
+
+  <!-- brain grooves: define the lobes -->
+  <path d="M 176 192 C 190 220, 184 250, 164 272" stroke="#C2185B" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M 252 172 C 262 204, 256 238, 238 264" stroke="#C2185B" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M 330 174 C 342 200, 338 232, 320 258" stroke="#C2185B" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M 210 300 C 230 312, 262 314, 288 306" stroke="#C2185B" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- eyes: the marvin-face -->
+  <circle cx="200" cy="272" r="31" fill="#FFFFFF"/>
+  <circle cx="292" cy="272" r="31" fill="#FFFFFF"/>
+  <circle cx="208" cy="278" r="13" fill="#263238"/>
+  <circle cx="300" cy="278" r="13" fill="#263238"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "port": 8790,
+  "bind": "100.0.0.0",
+  "pi_bin": "pi",
+  "session_dir": "~/.local/share/babel/sessions",
+  "max_sessions": 4,
+  "tool_result_max_chars": 4000,
+  "notify": null
+}

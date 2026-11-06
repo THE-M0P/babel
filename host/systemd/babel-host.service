@@ -1,0 +1,15 @@
+[Unit]
+Description=Babel session host (deepthought remote sessions)
+After=network-online.target tailscaled.service
+Wants=network-online.target tailscaled.service
+
+[Service]
+Type=simple
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+# Adjust to your clone path:
+ExecStart=%h/src/babel/host/run.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

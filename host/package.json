@@ -1,0 +1,14 @@
+{
+  "name": "babel-host",
+  "version": "0.1.0",
+  "description": "Session host for babel: owns deepthought (pi --mode rpc) processes and serves the JSON contract over WebSocket",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

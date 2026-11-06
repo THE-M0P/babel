@@ -1,0 +1,16 @@
+# Personal agent context (local only — not part of the project)
+MARVIN.md
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Host runtime
+host/node_modules/
+host/*.log
+
+# Internal decision log (local only)
+docs/07-decisions.md
+
+# Personal working docs (local only)
+docs/
